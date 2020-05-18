@@ -29,3 +29,23 @@ button:hover{
 .btn::before{
     content: "there is a button near me";
 }
+.container{
+    background-color: rgb(216, 238, 23);
+    display: flex;
+    flex-wrap: wrap;}
+    .container>div{
+        background-color: aqua;
+        margin: 20px;
+
+    }
+.grid{
+    background-color: rgb(253, 136, 136);
+    display: grid;
+    padding: 10px;
+    grid-column-gap:20px;
+    grid-row-gap:10px;
+    grid-template-columns: 1fr  2fr 1fr;
+}
+.child{
+    background-color: rgb(230, 141, 9);
+}
