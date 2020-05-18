@@ -1,0 +1,31 @@
+h1{
+    color: blue;
+}
+@media (min-width:500px){
+    body{
+        background-color:rgb(92, 111, 219);
+    }
+    h1::before{
+        content:"this screen has a min width of 500px<------------>";
+    }
+    @media (max-width:499px){
+    body{
+        background-color:rgb(43, 226, 113);
+        
+
+    }
+    h1::before{
+        content:"this screeen has width less than 500px<----------->" ;
+    }
+
+   
+}
+button{
+    background-color: green;
+}
+button:hover{
+    background-color:aquamarine;
+}
+.btn::before{
+    content: "there is a button near me";
+}
